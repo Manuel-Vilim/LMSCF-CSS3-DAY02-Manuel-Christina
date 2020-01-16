@@ -5,32 +5,126 @@
 	<style type="text/css">
 		body {background-color: white;}
 		.container {
-			position: absolute;
-			left: 300px;
+    		list-style:none;
+    		margin:0;
+    		padding:0;
+    		text-align:center;
+			
 		}
 		h1 {
 			text-align: center;
 		}
-		ul {
-			list-style-type: none;
+
+		nav {
 			border: 1px solid black;
 			background-color: lightgrey;
-			text-decoration-color: black;
+			margin-left: 50px;
+			margin-right: 50px;
 			padding-top: 20px;
 			padding-bottom: 20px;
-			width: 800px;
+			margin-bottom: 30px;
+			
 		}
-		li {
-			float: middle;
-			margin:auto;
+
+		.Feature {
+			border: 1px solid black;
+			background-color: lightgrey;
+			margin-left: 50px;
+			margin-right: 50px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+				
 		}
-		li a {
-			display: left;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-           text-decoration: none;
+
+		/*.Col1 {
+			border: 1px solid black;
+			background-color: lightgrey;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		
+			width: 400px;
+			margin-bottom: 30px;
+
 		}
+
+		.Col2 {
+			border: 1px solid black;
+			background-color: lightgrey;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		
+			width: 400px;
+			margin-bottom: 30px;
+		}
+
+		.Col3 {
+			border: 1px solid black;
+			background-color: lightgrey;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		
+			width: 400px;
+			margin-bottom: 30px;
+		}*/
+
+		
+
+		.Columns { 
+			display: flex;
+			justify-content: center;
+		} 
+
+		.Columns > div {
+			width: 100%;
+			margin:30px 50px 15px 50px;
+			text-align: center;
+			border: 1px solid black;
+			background-color: lightgrey;
+			padding-bottom: 20px;
+			padding-top: 20px;
+		}
+		
+		.Footer {
+			border: 1px solid black;
+			background-color: lightgrey;
+			margin-left: 50px;
+			margin-right: 50px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			
+		}
+		/*.Col1 {
+			border: 1px solid black;
+			background-color: lightgrey;
+			margin-left: 50px;
+			float: left;
+			width: 30%;
+			list-style-type: none;
+			
+			
+			}
+			
+		.Col2 {
+			border: 1px solid black;
+			background-color: lightgrey;
+			float: left;
+			width: 30%;
+			list-style-type: none;
+			
+			}
+
+		.Col3 {
+			border: 1px solid black;
+			background-color: lightgrey;
+			margin-right: 50px;
+			float: left;
+			width: 30%;
+			list-style-type: none;
+			
+			}*/
+
+		
+		
 	</style>
 
 </head>
@@ -44,23 +138,25 @@
 </div>
 
 	<div class="Nav"> 
-			<ul>
-			<li><a href="Home"> Home</a></li>
-			<li><a href="Products"> Products</a></li>
-			<li><a href="Services"> Services</a></li>
-			<li><a href="About"> About</a></li>
-            <li><a href="Contact"> Contact</a></li>
-        </ul>
+			<nav>
+			<a href="Home"> Home</a>
+			<a href="Products"> Products</a>
+			<a href="Services"> Services</a>
+			<a href="About"> About</a>
+            <a href="Contact"> Contact</a>
+        	</nav>
+
 	</div>
 	<div class="Feature">
-		<h3> Feature</h3>
+		<span>Feature</span>
 		
 	</div>
-	<div class="Columns">
-		<div class="Col1"> Col1</div>
-		<div class="Col2"> Col2</div>
-		<div class="Col3"> Col3</div>
+	<div class="Columns">	
+		<div> Column1</div>
+		<div> Column2</div>
+		<div> Column3</div>
 	</div>
+	<br>
 	<div class="Footer"> &copy; Copyright 2011</div>
 </div>
 </body>
