@@ -4,7 +4,7 @@
 	left: 100px;
 	right: 100px;*/
 	margin: auto;
-	box-shadow: 320px 0px 0px 0px #101010, -320px 0px 0px 0px #101010;
+	box-shadow: 320px 0px 0px #101010, -320px 0px 0px #101010;
 	/*Have a look at the shadow*/
 	padding-right: 50px;
 	padding-left: 50px;
